@@ -1,0 +1,5 @@
+requirement - Gstreamer Must
+Open cmd/terminal just fire below mentioned command
+
+
+gst-launch-1.0 videotestsrc ! x264enc ! h264parse ! rtph264pay ! udpsink host=127.0.0.1 port= 5002
